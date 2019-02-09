@@ -1,14 +1,22 @@
 # qrencoder
 
-TODO: Write a description here
+An attempt to make a customizable QR code generator, using Crystal.
 
 ## Installation
 
-TODO: Write installation instructions here
+- setup dependencies:
+
+`$ shards install`
+
+- generate binary:
+
+`$ crystal build --release src/qrencoder.cr`
 
 ## Usage
 
-TODO: Write usage instructions here
+- use executable:
+
+`$ ./qrencoder "hello world"`
 
 ## Development
 
