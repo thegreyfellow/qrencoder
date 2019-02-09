@@ -1,0 +1,18 @@
+version: 1.0
+shards:
+  magickwand-crystal:
+    github: blocknotes/magickwand-crystal
+    version: 0.2.4
+
+  qrencode:
+    github: woodruffw/qrencode.cr
+    commit: a86959d342e4a0b39dc6bc940b54724571c6293c
+
+  stumpy_core:
+    github: stumpycr/stumpy_core
+    version: 1.8.2
+
+  stumpy_png:
+    github: stumpycr/stumpy_png
+    version: 4.4.1
+

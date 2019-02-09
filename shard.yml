@@ -1,0 +1,23 @@
+name: qrencoder
+version: 0.1.0
+
+authors:
+  - Youssef Idmoussi <youssef.idmoussi@gmail.com>
+
+targets:
+  qrencoder:
+    main: src/qrencoder.cr
+
+crystal: 0.27.0
+
+license: MIT
+
+dependencies:
+  qrencode:
+    github: woodruffw/qrencode.cr
+    branch: master
+  stumpy_png:
+    github: stumpycr/stumpy_png
+    version: "~> 4.4.1"
+  magickwand-crystal:
+    github: blocknotes/magickwand-crystal
