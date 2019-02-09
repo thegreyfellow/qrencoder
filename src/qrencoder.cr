@@ -11,7 +11,7 @@ module Qrencoder
   multiplicator = 50
   margin = multiplicator
   input = ARGV[0] || ""
-  res = ARGV[1] || 250
+  res = ARGV[1].to_i || 250
   # version = ARGV[2]
   # correction_level = ARGV[3]
 
